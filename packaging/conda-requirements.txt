@@ -1,6 +1,6 @@
 pandas==0.19.2
 bottleneck==1.1.0
-numpy
+numpy==1.13.0
 numexpr
 matplotlib==1.5.1
 scipy
