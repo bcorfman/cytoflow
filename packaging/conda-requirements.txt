@@ -1,10 +1,10 @@
 pandas==0.19.2
 bottleneck==1.1.0
-numpy==1.11.1
-numexpr==2.6.1
+numpy
+numexpr
 matplotlib==1.5.1
-scipy==0.18.1
-scikit-learn==0.18
+scipy
+scikit-learn
 seaborn==0.7.1
 traits==4.6.0
 pyface==5.1.0
@@ -14,3 +14,4 @@ python-dateutil==2.5.3
 statsmodels==0.8.0
 faulthandler==2.4
 qt==4.8.7
+mkl
