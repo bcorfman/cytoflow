@@ -140,6 +140,9 @@ def log_excepthook(typ, val, tb):
 def run_gui():
     multiprocessing.freeze_support()
     
+    import numpy
+    print numpy.show_config()
+    
     from cytoflow.utility.custom_traits import Removed, Deprecated
     Removed.gui = True
     Deprecated.gui = True
